@@ -119,7 +119,7 @@ $(function() {
                 {
                     breakpoint: 768,
                     settings: {
-                        arrows: false
+                        arrows: true
                     }
                 }
             ]
@@ -257,8 +257,8 @@ $(function() {
     $('.project-active').slick({
         dots: true,
         infinite: true,
-        autoplay: false,
-        autoplaySpeed: 2000,
+        autoplay: true,
+        autoplaySpeed: 800,
         arrows: false,
         speed: 1000,
         slidesToShow: 4,
