@@ -409,7 +409,8 @@ p {
       .header-area .main-header .main-header-item .header-btn a:hover::before {
         background: #fff; }
   .header-area .main-header .main-header-item .header-menu {
-    background: #192437; }
+    background: #121B2B;
+    margin-left: -60px; }
     .header-area .main-header .main-header-item .header-menu ul {
       padding: 0 30px; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -1110,7 +1111,7 @@ p {
       margin: 0; }
       .page-title-area .page-title-item nav ol li {
         text-transform: uppercase;
-        color: #fff;
+        color: rgb(212, 13, 13);
         letter-spacing: 1px; }
         .page-title-area .page-title-item nav ol li a {
           color: #fff; }
@@ -1118,7 +1119,7 @@ p {
     font-size: 60px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #fff;
+    color: rgb(212, 13, 13);
     padding-top: 13px; }
     @media (max-width: 767px) {
       .page-title-area .page-title-item .title {
