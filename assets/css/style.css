@@ -307,9 +307,9 @@ p {
     display: flex; }
     .header-area .header-top .header-top-items .header-top-info ul li {
       position: relative;
-      margin-left: 60px;
+      margin-left: 0px;
       padding-left: 116px;
-      border-left: 1px solid #eaeaea;
+      /* border-left: 1px solid #eaeaea; */
       padding-top: 15px;
       padding-bottom: 15px; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -847,7 +847,7 @@ p {
   background: #fff;
   z-index: 9999;
   top: 0;
-  height: 100vh;
+  height: 100%;
   transition: .5s;
   left: 0;
   margin-left: -300px;
@@ -978,7 +978,7 @@ p {
     3.BANNER css 
 ===========================*/
 .banner-area {
-  height: 830px;
+  height: 550px;
   position: relative;
   z-index: 10; }
   .banner-area::before {
@@ -986,7 +986,7 @@ p {
     content: '';
     left: 0;
     top: 0;
-    height: 100%;
+    height: 0;
     width: 100%;
     z-index: -1;
     background: #000;
@@ -1073,11 +1073,11 @@ p {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  height: 170px;
+  height: 90px;
   width: 50px;
   text-align: center;
-  line-height: 170px;
-  background-color: rgba(255, 255, 255, 0.5);
+  line-height: 90px;
+  background-color: rgba(250, 242, 242, 0.5);
   z-index: 99;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1313,7 +1313,7 @@ p {
         width: 100%; }
     .industri-services-area .services-item .services-content {
       background: #fff;
-      border: 1px solid #eaeaea;
+      /* border: 1px solid #eaeaea; */
       padding: 65px 50px 45px; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
         .industri-services-area .services-item .services-content {
